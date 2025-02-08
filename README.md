@@ -31,7 +31,8 @@ This project includes a REST API for managing todos. Below are the available end
 - **Method:** GET  
 - **URL:** `http://localhost:3000/api/todos`  
 - **Response:** List of all todos in JSON format.  
-- **Screenshot:** `readme_images/RequestAllCollections.png`
+- **Screenshot:**  
+  ![Get All Todos](readme_images/RequestAllCollections.png)
 
 ### 2. Create a New Todo
 - **Method:** POST  
@@ -43,13 +44,15 @@ This project includes a REST API for managing todos. Below are the available end
   }
   ```
 - **Response:** The newly created todo item.  
-- **Screenshot:** `readme_images/CreateTodo.png`
+- **Screenshot:**  
+  ![Create Todo](readme_images/CreateTodo.png)
 
 ### 3. Get a Single Todo
 - **Method:** GET  
 - **URL:** `http://localhost:3000/api/todos/1`  
 - **Response:** Details of the todo with ID `1`.  
-- **Screenshot:** `readme_images/GetSingleTodo.png`
+- **Screenshot:**  
+  ![Get Single Todo](readme_images/GetSingleTodo.png)
 
 ### 4. Update a Todo
 - **Method:** PUT  
@@ -61,13 +64,15 @@ This project includes a REST API for managing todos. Below are the available end
   }
   ```
 - **Response:** The updated todo item.  
-- **Screenshot:** `readme_images/UpdateTodo.png`
+- **Screenshot:**  
+  ![Update Todo](readme_images/UpdateTodo.png)
 
 ### 5. Delete a Todo
 - **Method:** DELETE  
 - **URL:** `http://localhost:3000/api/todos/1`  
 - **Response:** `204 No Content` (Successful deletion).  
-- **Screenshot:** `readme_images/DeleteTodo.png`
+- **Screenshot:**  
+  ![Delete Todo](readme_images/DeleteTodo.png)
 
 ### API Testing Screenshots
 All API testing screenshots are available in the `readme_images` folder. The images included are:
