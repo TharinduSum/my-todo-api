@@ -20,6 +20,63 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## API Endpoints
+
+This project includes a REST API for managing todos. Below are the available endpoints and how to test them using [Insomnia](https://insomnia.rest/).
+
+### Base URL
+`http://localhost:3000/api/todos`
+
+### 1. Get All Todos
+- **Method:** GET  
+- **URL:** `http://localhost:3000/api/todos`  
+- **Response:** List of all todos in JSON format.  
+- **Screenshot:** `readme_images/RequestAllCollections.png`
+
+### 2. Create a New Todo
+- **Method:** POST  
+- **URL:** `http://localhost:3000/api/todos`  
+- **Body (JSON):**
+  ```json
+  {
+    "title": "Learn Insomnia"
+  }
+  ```
+- **Response:** The newly created todo item.  
+- **Screenshot:** `readme_images/CreateTodo.png`
+
+### 3. Get a Single Todo
+- **Method:** GET  
+- **URL:** `http://localhost:3000/api/todos/1`  
+- **Response:** Details of the todo with ID `1`.  
+- **Screenshot:** `readme_images/GetSingleTodo.png`
+
+### 4. Update a Todo
+- **Method:** PUT  
+- **URL:** `http://localhost:3000/api/todos/1`  
+- **Body (JSON):**
+  ```json
+  {
+    "completed": true
+  }
+  ```
+- **Response:** The updated todo item.  
+- **Screenshot:** `readme_images/UpdateTodo.png`
+
+### 5. Delete a Todo
+- **Method:** DELETE  
+- **URL:** `http://localhost:3000/api/todos/1`  
+- **Response:** `204 No Content` (Successful deletion).  
+- **Screenshot:** `readme_images/DeleteTodo.png`
+
+### API Testing Screenshots
+All API testing screenshots are available in the `readme_images` folder. The images included are:
+- `CreateTodo.png`
+- `DeleteTodo.png`
+- `GetSingleTodo.png`
+- `RequestAllCollections.png`
+- `UpdateTodo.png`
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
