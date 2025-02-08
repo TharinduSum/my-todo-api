@@ -32,7 +32,7 @@ This project includes a REST API for managing todos. Below are the available end
 - **URL:** `http://localhost:3000/api/todos`  
 - **Response:** List of all todos in JSON format.  
 - **Screenshot:**  
-  ![Get All Todos](readme_images/RequestAllCollections.png)
+  ![Get All Todos](https://github.com/TharinduSum/my-todo-api/blob/main/readme_Images/CreateTodo.png)
 
 ### 2. Create a New Todo
 - **Method:** POST  
